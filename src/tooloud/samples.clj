@@ -48,12 +48,12 @@
                                                        (+ start-time bar-dur)
                                                        (inc beat-num)]))))
 
-(def clap  (load-sample "~/Desktop/DUBSTEP/Kit/K_Cabasa_A3.wav"))
-(def cy    (load-sample "~/Desktop/DUBSTEP/Kit/K_Ride_Cymbal_1_D#2.wav"))
-(def bass  (load-sample "~/Desktop/DUBSTEP/Kit/Bass.wav"))
-(def snar  (load-sample "~/Desktop/DUBSTEP/Kit/K_AcSnare_D1.wav"))
-(def hhos  (load-sample "~/Desktop/DUBSTEP/Kit/K_Closed_Hihat_F#1.wav"))
-(def hho2  (load-sample "~/Desktop/DUBSTEP/Kit/K_Pedal_Hihat_G#1.wav"))
+(def clap  (load-sample "../Dubstep_construction_Kit/_Dubstep Free Pack/Drums/Samples/Kirk/Kirk SD.wav"))
+(def cy    (load-sample "../Dubstep_construction_Kit/_Dubstep Free Pack/AA_medium_ride_final.wav"))
+(def bass  (load-sample "../Dubstep_construction_Kit/_Dubstep Free Pack/Drums/Samples/Demon/Demon BD.wav"))
+(def snar  (load-sample "../Dubstep_construction_Kit/_Dubstep Free Pack/Drums/Samples/Dub/Dub SN2.wav"))
+(def hhos  (load-sample "../Dubstep_construction_Kit/_Dubstep Free Pack/Drums/Samples/Hop/Hop HH.wav"))
+(def hho2  (load-sample "../Dubstep_construction_Kit/_Dubstep Free Pack/Drums/Samples/Hop/Hop HH3.wav"))
 
 (def kit [clap cy bass snar hhos hho2])
                   
